@@ -72,7 +72,7 @@ const Login = () => {
                   type="text"
                   option1="Landlord"
                   option2="Tenant"
-                  option3="Broker"
+                 
                 />
                 <TextFieldCompo
                   label="Email Address*"

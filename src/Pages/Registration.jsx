@@ -85,7 +85,7 @@ const Registration = () => {
                     type="text"
                     option1="Landlord"
                     option2="Tenant"
-                    option3="Broker"
+                   
                   />
                   {formik.values.role === "Broker" ? (
                     <TextFieldCompo label="Area*" type="text" name="area" />
