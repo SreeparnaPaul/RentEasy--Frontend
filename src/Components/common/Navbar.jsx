@@ -118,7 +118,7 @@ export default function Navbar() {
                   <b> Properties</b>
                 </Typography>
               </MenuItem>
-              <MenuItem
+              {/* <MenuItem
                 onClick={(e) => {
                   e.preventDefault();
                   navigate("/brokers");
@@ -127,7 +127,7 @@ export default function Navbar() {
                 <Typography textAlign="center" component="a" href="/brokers">
                   <b>Brokers</b>
                 </Typography>
-              </MenuItem>
+              </MenuItem> */}
             </Menu>
           </Box>
           <Typography
@@ -164,7 +164,7 @@ export default function Navbar() {
             >
               <b> Properties</b>
             </Button>
-            <Button
+            {/* <Button
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/brokers");
@@ -172,7 +172,7 @@ export default function Navbar() {
               sx={{ my: 2, color: "black", display: "block" }}
             >
               <b>Brokers</b>
-            </Button>
+            </Button> */}
           </Box>
           {openAddProperty && (
             <AddProperty

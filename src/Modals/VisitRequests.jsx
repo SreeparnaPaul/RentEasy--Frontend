@@ -339,10 +339,10 @@ export const VisitorsList = (props) => {
                   </Button>
                 </Box>
               ) : null}
-              {userData?.role === "Tenant" &&
+              {/* {userData?.role === "Tenant" &&
               requestDetails?.status === "Visited" ? (
                 <GiveFeedback visitProperty={requestDetails} />
-              ) : null}
+              ) : null} */}
             </AccordionDetails>
           </Accordion>
         </Typography>

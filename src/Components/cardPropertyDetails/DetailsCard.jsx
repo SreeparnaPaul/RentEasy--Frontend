@@ -192,20 +192,7 @@ export const DetailsCard = ({ propertyDetails }) => {
             </Typography>
           </Box>
 
-          <Button
-            variant="outlined"
-            sx={{
-              borderRadius: "20px",
-              marginRight: "5px",
-              marginTop: "5px",
-            }}
-            onClick={(e) => {
-              e.preventDefault();
-              navigate("/reviews");
-            }}
-          >
-            See Reviews
-          </Button>
+          
         </CardContent>
       </Card>
     </Box>

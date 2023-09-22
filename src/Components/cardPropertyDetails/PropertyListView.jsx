@@ -109,7 +109,7 @@ const PropertyCard = () => {
                       </Stack>
                       <h5> Property Code : {details?.propertyCode}</h5>
                       <Box>
-                        {openVerifyBrokers && (
+                        {/* {openVerifyBrokers && (
                           <VerifyBrokers
                             openModal={true}
                             onClick={() => setOpenVerifyBrokers(false)}
@@ -125,7 +125,7 @@ const PropertyCard = () => {
                             sx={{ marginRight: "5px" }}
                           />
                           Verified By Brokers
-                        </Button>
+                        </Button> */}
                       </Box>
                     </Box>
                   </div>

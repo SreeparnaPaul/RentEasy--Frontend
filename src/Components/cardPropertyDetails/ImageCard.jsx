@@ -251,7 +251,7 @@ export const ImageCard = ({ propertyDetails, requestSent }) => {
             </Button>
           )}
           {openRequestSign && (
-            <RentalAgreement
+            <SignRequest
               openModal={true}
               propertyCode={propertyDetails?.propertyCode}
               landlordEmail={propertyDetails?.landlordEmail}
